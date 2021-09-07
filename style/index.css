@@ -207,3 +207,13 @@ footer h2 {
     background: #55acee;
     color: white; 
 }
+
+/* ------ Tablet Styles ------ */
+@media(max-width:800px) {
+
+}
+
+/* ------ Phone Styles ------ */
+@media(max-width:500px){
+
+}
