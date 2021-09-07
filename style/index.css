@@ -257,8 +257,16 @@ footer h2 {
         margin: 1rem;
     }
 
-    section div .img {
-        flex-wrap: wrap;
+    .container img {
+        width: 100%;
+    }
+
+    section div .img1 {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin: .5rem;
     }
 
@@ -281,6 +289,7 @@ footer h2 {
         justify-content: center;
         align-items: center;
     }
+
 
 }
 
@@ -316,10 +325,18 @@ footer h2 {
         flex-wrap: wrap;
     }
 
-
     footer h2 {
         font-size: 1.7rem;
         margin-bottom: 1rem;
+    }
+
+    section div .img1 {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: .5rem;
     }
 
 }
